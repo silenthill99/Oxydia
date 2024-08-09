@@ -1,5 +1,3 @@
-import React from 'react';
-
 const NotreÉquipe = () => {
 
     const staff = [{
@@ -18,7 +16,7 @@ const NotreÉquipe = () => {
             <h2>Notre équipe</h2>
 
             {staff.map((item, index) => (
-                <div className={"border w-1/2 mx-auto grid grid-cols-2 rounded-xl shadow mb-20"} key={index}>
+                <div className={"border w-full md:w-1/2 mx-auto grid grid-cols-2 rounded-xl shadow mb-20"} key={index}>
                     <div className={"border-r flex justify-center items-center gap-2"}>
                         <img width={100} src={item.skin} alt=""/>
                         <h2>{item.pseudo}</h2>

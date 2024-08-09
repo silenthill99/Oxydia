@@ -7,7 +7,7 @@ function App() {
     return (
         <>
             <header
-                className={"container sm:max-w flex items-center justify-between p-5 border-b bg-gradient-to-r text-white from-sky-700 to-blue-500"}>
+                className={"flex flex-wrap items-center justify-between p-5 border-b bg-gradient-to-r text-white from-sky-700 to-blue-500"}>
                 <h1>Oxydia</h1>
                 <nav>
                     <NavLink to=""
