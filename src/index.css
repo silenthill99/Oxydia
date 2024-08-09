@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@layer base {
+  h1 {
+    @apply text-3xl font-bold leading-tight;
+  }
+  h2 {
+    @apply text-2xl font-medium leading-tight;
+  }
+  h3 {
+    @apply text-xl font-bold leading-tight;
+  }
+}
+@tailwind utilities;
