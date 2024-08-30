@@ -1,7 +1,7 @@
-import Home from "./Pages/Home.jsx";
+import Home from "./Pages/Home.tsx";
 import {NavLink, Route, Routes} from "react-router-dom";
-import Contacts from "./Pages/Contacts.jsx";
-import NosProjets from "./Pages/Nos projets.jsx";
+import Contacts from "./Pages/Contacts.tsx";
+import NosProjets from "./Pages/Nos projets.tsx";
 
 function App() {
     return (

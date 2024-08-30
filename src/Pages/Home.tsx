@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import NotreÉquipe from "../Components/Notre équipe.jsx";
+import NotreÉquipe from "../Components/Notre équipe.tsx";
 
 const Home = () => {
     return (

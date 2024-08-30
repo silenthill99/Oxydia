@@ -1,6 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-
 const NosProjets = () => {
     return (
         <div className={"h-screen p-2"}>
